@@ -1,0 +1,68 @@
+<html>
+<head>
+
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Try to escape!</title>
+    
+</head>
+
+<body style="background-image: url('defg.jpg'); background-size: cover; background-attachment: fixed;">
+    <h2 class="header"><br>Are you ready! for some serious FUN?<br>How sharp are your eyes👀? Test Yourself..<br> Solve the following puzzles.</h2>
+    <div class="instructbtn">
+        <h2>
+    <a href="#" class="instruct" onclick="suri()">View Instructions👈</a></h2>
+    <div class="happy">
+    <h2 style="padding-top: 15px;">Find Number of 7's in the figure and<br>click on buttons below</h2>
+    <img src="Number_of7.jpg" alt="Image having 'Z' & '7' " class="img1">
+
+<div id="result" style="font-family:'Georgia';"></div>
+<div id="result2"></div>
+<div id="result3"></div>
+<div id="result4"></div>
+<div id="result5"></div>
+<div id="result6"></div>
+<br>
+<img src="https://media.tenor.co/images/ee9312e65b300f7fcfee5d05f62d56d7/tenor.gif" id="loseGif1"/>
+<img src="http://reactiongifs.me/wp-content/uploads/2013/10/i-wingman-successfully-leonardo-dicaprio.gif" id="winGif"/> <!-- The gifs that are showing when lost/won -->
+
+<!-- <iframe src="https://www.youtube.com/embed/7JIdJLkJ0S4?autoplay=1" id="music"></iframe>  -->
+<div>
+    <button id="left1"  onclick="Direction('left')" style="margin-right: 15px; font-size: large;">N=4</button>
+    <button id="right1" onclick="Direction('right')"style="margin-right: 15px;font-size: large;">N=5</button>
+    <button id="escape1" onclick="Direction('escape')"style="margin-right: 15px;font-size: large;">N=6</button>
+</div>
+
+<br>
+
+<div>
+    
+    <button id="img2" style="display: none;"><img src="culprit.png" alt="Image having 'Z' & '7' " class="img1" ></button>
+    
+    <br>
+    <button id="left2" style="display: none; margin-bottom: 20px;" onclick="Direction2('left2')">Chef is culprit.</button>
+    <button id="right2" style="display: none" onclick="Direction2('right2')">Wife is the culprit</button>
+    <button id="escape2" style="display: none" onclick="Direction2('escape2')">No culprit</button>
+
+</div>
+
+<div>
+    <button id="triangle" style="display: none;"><img src="triangls.jpg" alt="Triangle Image' " class="img1" ></button>
+    <br>
+    <button id="A" style="display: none; margin-bottom: 20px;" onclick="Direction3('A')">16</button>
+    <button id="B" style="display: none" onclick="Direction3('B')">10</button>
+    <button id="C" style="display: none" onclick="Direction3('C')">13</button>
+</div>
+<button id="triangle1" style="display: none;"><img src="treasure.jpg" alt="Triangle Image' " class="img1" ></button>
+    
+
+
+<div>
+    <button id="tryagain" style="display: none;margin-bottom: 10px;" onclick="TryAgain()">Try Again!</button>
+</div>
+
+<div id="again"></div>
+</div>
+<!-- <div><a href="#">After submission click here</a></div> -->
+</body>
+</html>

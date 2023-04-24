@@ -1,0 +1,80 @@
+h1{
+    font-family: fantasy;
+    font-size: 60px;
+}
+h2{
+    font-family:'Times New Roman';
+    
+}
+
+div{
+    font-family: monospace;
+    text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  font-family: Courier New;
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #6c6b6b;
+  padding: 10px 20px 10px 20px;
+}
+
+/* body {
+    background-color: powderblue;
+} */
+
+#winGif{
+    display: none;
+    position: absolute;
+    left: 0; right:0;
+    margin: auto;
+}
+
+#loseGif1{
+display: none;
+    left: 0; right:0;
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+} 
+
+#tryagain {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.instructbtn{
+    text-align: center;
+    margin-top: 25px;
+}
+.img1{
+    display: block;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height:300px;
+    width: 50%px;
+}
+
+.header{
+    margin-top: 50px;
+    text-align: center;
+}
+/* .instruct{
+    text
+} */
+
+.happy{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    flex-wrap: wrap;
+    background-color: rgb(90, 127, 146);
+    /* background-color: #07a2aa; */
+}
